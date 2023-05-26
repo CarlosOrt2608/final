@@ -6,15 +6,15 @@ public class principal {
 
     static ArrayList<Clases> clase = new ArrayList<Clases>();
 
-    static int cantHoja = 52;
-     static int tempoPicad = 7;
-    static  int arom = 7;
-    static int azuca = 12;
-    static int nicotin = 2;
+    static int cantidadH = 52;
+     static int tiempoP = 7;
+    static  int aroma = 7;
+    static int azucar = 12;
+    static int nicotina = 2;
 
     public static void totalCigarros() {
 
-        clase.add(new Clases(cantHoja, tempoPicad, arom, azuca, nicotin));
+        clase.add(new Clases(cantidadH, tiempoP, aroma, azucar, nicotina));
 
         System.out.println(clase.toString());
 
